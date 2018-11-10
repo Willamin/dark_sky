@@ -1,14 +1,14 @@
-# dark-sky
+# Dark Sky Crystal Library
 
-** NOTE: The api of this library is subject to change. Releases will be properly tagged, so versions should be used when depending on this library.**
+*NOTE: The api of this library is subject to change. Releases will be properly tagged, so versions should be used when depending on this library.*
 
 ## Usage
 
 Add this to your `shard.yml`:
 ```
 dependencies:
-  dark_sky:
-    github: willamin/dark_sky
+  darksky:
+    github: willamin/darksky
     version: 0.1.0
 ```
 
@@ -19,7 +19,7 @@ $ shards install
 
 Require the library from your codebase:
 ```
-require "dark_sky"
+require "darksky"
 ```
 
 Fetch the current conditions given a latitude and longitude:
@@ -31,7 +31,7 @@ DarkSky::Forecast.fetch?(api_key, location)
 
 ## Contributing
 
-1. Fork it ( https://github.com/willamin/dark_sky/fork )
+1. Fork it ( https://github.com/willamin/darksky/fork )
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)

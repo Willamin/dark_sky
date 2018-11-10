@@ -1,4 +1,4 @@
-require "./dark_sky/*"
+require "./darksky/*"
 
 module DarkSky
   VERSION = {{ `shards version #{__DIR__}`.chomp.stringify }}
