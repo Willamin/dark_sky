@@ -1,6 +1,6 @@
 # Dark Sky Crystal Library
 
-*NOTE: The api of this library is subject to change. Releases will be properly tagged, so versions should be used when depending on this library.*
+**NOTE: The api of this library is subject to change. Releases will be properly tagged, so versions should be used when depending on this library.**
 
 ## Usage
 
